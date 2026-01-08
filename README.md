@@ -1,6 +1,6 @@
 # Simon Müller
 
-**Systems Architect | Rust Engineer | Ph.D. Statistician**
+**Systems Architect | Rust Engineer | Ph.D. Mathematician**
 
 I specialise in **High-Performance Computing (HPC)** and **ML Infrastructure**. My focus is replacing GIL-bound Python bottlenecks with highly optimised **Rust** and **C++** kernels, leveraging SIMD, zero-copy data transfer (Apache Arrow), and in-process OLAP engines (DuckDB).
 
