@@ -1,10 +1,10 @@
-# Dr. Simon Müller
+# Simon Müller
 
 **Systems Architect | Rust Engineer | Ph.D. Statistician**
 
-I specialize in **High-Performance Computing (HPC)** and **ML Infrastructure**. My focus is replacing GIL-bound Python bottlenecks with highly optimized **Rust** and **C++** kernels, leveraging SIMD, zero-copy data transfer (Apache Arrow), and in-process OLAP engines (DuckDB).
+I specialise in **High-Performance Computing (HPC)** and **ML Infrastructure**. My focus is replacing GIL-bound Python bottlenecks with highly optimised **Rust** and **C++** kernels, leveraging SIMD, zero-copy data transfer (Apache Arrow), and in-process OLAP engines (DuckDB).
 
-[LinkedIn](https://www.linkedin.com/in/YOUR_LINKEDIN_USER) • [Crates.io](https://crates.io/users/sipemu) • [Freelancermaps](https://www.freelancermaps.de/freiberufler/YOUR_ID)
+[LinkedIn](https://www.linkedin.com/in/simon-m%C3%BCller/) • [Crates.io](https://crates.io/users/sipemu)
 
 ---
 
@@ -23,10 +23,10 @@ I specialize in **High-Performance Computing (HPC)** and **ML Infrastructure**. 
 * **Objective:** Remove heavy PyTorch/Python dependencies for edge and high-throughput environments.
 * **Tech:** `Candle` / `Burn`, `WASM`, `Tokio`.
 
-#### 🚀 [C++] AnoFox Forecasting Engine
+#### 🚀 [Rust/C++] AnoFox Forecasting Engine
 * **Performance:** Achieved **2,900x speedup** vs. `statsmodels`/`pandas` loops by moving logic to C++.
-* **Design:** Hybrid architecture using **DuckDB** for parallelized data shuffling and **C++** for vectorized statistical kernels.
-* **Tech:** `C++20`, `DuckDB C-API`, `OpenMP`.
+* **Design:** Hybrid architecture using **DuckDB** for parallelized data shuffling and **Rust** for vectorized statistical kernels.
+* **Tech:** `Rust`, `DuckDB C-API`, `OpenMP`.
 
 #### 🤖 [Rust] MCP (Model Context Protocol) Servers
 * **Implementation:** Custom Rust-based servers implementing the MCP standard to inject dynamic context (DB schemas, API specs) into AI coding agents.
@@ -48,14 +48,12 @@ I specialize in **High-Performance Computing (HPC)** and **ML Infrastructure**. 
 
 **Core:**
 ![Rust](https://img.shields.io/badge/-Rust-black?style=flat&logo=rust)
-![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
-![WASM](https://img.shields.io/badge/-WASM-654FF0?style=flat&logo=webassembly&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
+![R](https://img.shields.io/badge/-R-276DC3?style=flat&logo=r&logoColor=white)
 
 **Data & ML:**
 ![DuckDB](https://img.shields.io/badge/-DuckDB-FFF000?style=flat&logo=duckdb&logoColor=black)
 ![Polars](https://img.shields.io/badge/-Polars-CD792C?style=flat&logo=polars&logoColor=white)
-![Arrow](https://img.shields.io/badge/-Apache%20Arrow-black?style=flat&logo=apache&logoColor=white)
-![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 
 **Infrastructure:**
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
