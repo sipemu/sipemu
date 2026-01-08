@@ -47,7 +47,7 @@ I specialise in **High-Performance Computing (HPC)** and **ML Infrastructure**. 
 | Crate / Repo | Description | Stack |
 |:--- |:--- |:--- |
 | **[sipemu](https://crates.io/users/sipemu)** | 4+ Utility crates for statistical computing. | `Rust` |
-| **AnoFox-Statistics** | High-performance statistical extension for DuckDB. | `C++`, `DuckDB` |
+| **AnoFox-Statistics** | High-performance statistical extension for DuckDB. | `Rust`, `DuckDB` |
 | **Polars-Statistics** | FFI bindings for high-speed statistics on Polars DataFrames. | `Python`, `Rust`, `Polars` |
 
 ---
