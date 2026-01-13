@@ -11,7 +11,7 @@ I specialise in **High-Performance Computing (HPC)** and **ML Infrastructure**. 
 ### 🔬 Data Science Focus
 
 * **Advanced Forecasting:** Large-scale Hierarchical Time Series (HTS), Probabilistic Forecasting, and Handling Intermittent Demand (Sparse Data) for Supply Chains.
-* **Rigorous Statistics:** Bayesian Inference (`Stan`), Design of Experiments (DoE), Functional Data Analysis (FDA).
+* **Rigorous Statistics**: Bringing statistics and ML to production without the Python overhead.
 * **Industrial AI:** Anomaly Detection in manufacturing processes, Predictive Quality, and Root Cause Analysis using Causal Inference.
 
 ---
