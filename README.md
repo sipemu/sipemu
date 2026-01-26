@@ -21,7 +21,7 @@ I specialise in **High-Performance Computing (HPC)** and **ML Infrastructure**. 
 * **Systems Programming:** Porting interpretability-heavy Python logic to **Rust/C++** (WASM/Native).
 * **GenAI Infrastructure:** Building **Model Context Protocol (MCP)** servers and dependency-free inference engines for Foundation Models.
 * **Data Engineering:** Designing zero-copy ETL pipelines using **DuckDB**, **Polars**, and **Apache Arrow**.
-* **RAG & Semantic Search:** Developing **Magpie**, a high-performance RAG framework in Rust—HNSW-accelerated vector search, flexible document ingestion, Model Context Protocol servers, and WASM support for edge deployment.  
+* **RAG & Semantic Search:** Developing **Magpie**, a High-performance vector database and RAG engine built in Rust. Implements semantic search with HNSW/DiskANN backends, hybrid retrieval combining dense vectors with BM25, and cross-encoder reranking. Features AST-aware chunking for 7 programming languages (Python, JS, Rust, Java, C#, R, TypeScript), document extraction for 57+ formats including OCR, and advanced RAG patterns (HyDE, Multi-Query, Corrective RAG). Supports multiple embedding/LLM providers (Ollama, OpenAI, Anthropic, Gemini) with deployment options including REST API, MCP server for Claude integration, and WebAssembly.
 ---
 
 ### 🛠 Selected R&D
