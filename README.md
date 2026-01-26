@@ -21,7 +21,7 @@ I specialise in **High-Performance Computing (HPC)** and **ML Infrastructure**. 
 * **Systems Programming:** Porting interpretability-heavy Python logic to **Rust/C++** (WASM/Native).
 * **GenAI Infrastructure:** Building **Model Context Protocol (MCP)** servers and dependency-free inference engines for Foundation Models.
 * **Data Engineering:** Designing zero-copy ETL pipelines using **DuckDB**, **Polars**, and **Apache Arrow**.
-
+* **RAG & Semantic Search:** Developing **Magpie**, a high-performance RAG framework in Rust—HNSW-accelerated vector search, flexible document ingestion, Model Context Protocol servers, and WASM support for edge deployment.  
 ---
 
 ### 🛠 Selected R&D
@@ -35,6 +35,19 @@ I specialise in **High-Performance Computing (HPC)** and **ML Infrastructure**. 
 * **Performance:** Achieved **2,900x speedup** vs. `statsmodels`/`pandas` loops by moving logic to C++.
 * **Design:** Hybrid architecture using **DuckDB** for parallelized data shuffling and **Rust** for vectorized statistical kernels.
 * **Tech:** `Rust`, `DuckDB C-API`, `OpenMP`.
+
+#### 🐦 [Rust] Magpie MCP Server for SQL Intelligence                                                                                                                                
+* **Architecture:** Model Context Protocol server that injects database schemas, query patterns, and semantic code search into AI coding agents.                                     
+* **Capability:** Enables LLMs to generate contextually-aware SQL by retrieving similar queries and schema documentation at inference time.                                          
+* **Tech:** `axum`, `HNSW`, `MCP Protocol`, `WASM`.  
+
+#### 📊 [Rust] Magpie CRAN Semantic Index                                                                                                                                            
+* **Scale:** Indexed **22,771 R packages** with 1024-dim embeddings, enabling semantic search across the entire CRAN ecosystem.                                                      
+* **Analysis:** HNSW-accelerated clustering (O(n log n)) discovered **41 package communities** including Time Series, Bioinformatics, and ML—with hierarchical sub-clustering        
+  revealing specialised niches (e.g., GARCH, VAR, Single-Cell RNA-seq).
+* **Potential:** Enables semantic package discovery, automated Task View curation, near-duplicate detection (e.g., 0.97 similarity pairs), ecosystem health monitoring, and RAG-powered R code generation via MCP.                                                                                                           
+* **Potential:** Foundation for R package recommendation, dependency analysis, and ecosystem-wide code intelligence.                                                                 
+* **Tech:** `Rust`, `hnsw_rs`, `Louvain community detection`, `Ollama embeddings`.     
 
 #### 🤖 [Rust] MCP (Model Context Protocol) Servers
 * **Implementation:** Custom Rust-based servers implementing the MCP standard to inject dynamic context (DB schemas, API specs) into AI coding agents.
