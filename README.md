@@ -43,8 +43,7 @@ I specialise in **High-Performance Computing (HPC)** and **ML Infrastructure**. 
 
 #### 📊 [Rust] Magpie CRAN Semantic Index                                                                                                                                            
 * **Scale:** Indexed **22,771 R packages** with 1024-dim embeddings, enabling semantic search across the entire CRAN ecosystem.                                                      
-* **Analysis:** HNSW-accelerated clustering (O(n log n)) discovered **41 package communities** including Time Series, Bioinformatics, and ML—with hierarchical sub-clustering        
-  revealing specialised niches (e.g., GARCH, VAR, Single-Cell RNA-seq).
+* **Analysis:** HNSW-accelerated clustering (O(n log n)) discovered **41 package communities** including Time Series, Bioinformatics, and ML—with hierarchical sub-clustering revealing specialised niches (e.g., GARCH, VAR, Single-Cell RNA-seq).
 * **Potential:** Enables semantic package discovery, automated Task View curation, near-duplicate detection (e.g., 0.97 similarity pairs), ecosystem health monitoring, and RAG-powered R code generation via MCP.                                                                                                           
 * **Potential:** Foundation for R package recommendation, dependency analysis, and ecosystem-wide code intelligence.                                                                 
 * **Tech:** `Rust`, `hnsw_rs`, `Louvain community detection`, `Ollama embeddings`.     
