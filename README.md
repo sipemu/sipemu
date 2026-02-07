@@ -38,16 +38,6 @@ I design high-performance data systems in **Rust** and **C++** and apply statist
 
 ---
 
-### Open Source & Crates
-
-| Crate / Repo | Description | Stack |
-|:--- |:--- |:--- |
-| **[sipemu](https://crates.io/users/sipemu)** | 4+ Utility crates for statistical computing. | `Rust` |
-| **[AnoFox-Statistics](https://github.com/DataZooDE/anofox-statistics)** | High-performance statistical extension for DuckDB. | `Rust`, `DuckDB` |
-| **[Polars-Statistics](https://github.com/DataZooDE/polars-statistics)** | FFI bindings for high-speed statistics on Polars DataFrames. | `Python`, `Rust`, `Polars` |
-
----
-
 ### Tech Stack
 
 **Core:**
