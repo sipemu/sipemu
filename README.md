@@ -30,20 +30,37 @@ I design high-performance data systems in **Rust** and **C++** and apply statist
 
 ### Featured Projects
 
-| Project | Domain | Highlight | Stack |
-|:--------|:-------|:----------|:------|
-| [flapi](https://github.com/DataZooDE/flapi) | API / AI Agents | DuckDB-powered API gateway with MCP server and VS Code extension | `C++`, `DuckDB` |
-| [erpl](https://github.com/DataZooDE/erpl) | Enterprise Integration | DuckDB extension bridging SAP systems via RFC | `C++`, `DuckDB` |
-| [anofox-forecast](https://github.com/DataZooDE/anofox-forecast) | Time-Series Forecasting | 2,900x faster than statsmodels; DuckDB community extension | `C++`, `Rust`, `DuckDB` |
-| [anofox-tabular](https://github.com/DataZooDE/anofox-tabular) | Data Quality | Anomaly detection, validation, and data preparation in DuckDB | `C++`, `DuckDB` |
-| [polars-statistics](https://github.com/DataZooDE/polars-statistics) | Statistical Computing | High-performance statistical testing and regression for Polars | `Rust`, `Python` |
-| Magpie | GenAI / RAG | Vector DB and RAG engine with HNSW, hybrid retrieval, AST-aware chunking | `Rust` |
-| Chronos-2 | ML Inference | Pure-Rust re-implementation of Amazon's Chronos-2 time-series foundation model | `Rust`, `Candle` |
-| Inventory Optimisation | Supply Chain | Stochastic inventory models for demand planning | `Rust` |
-| [fdars](https://github.com/sipemu/fdars) | Functional Data Analysis | FDA algorithms -- depth measures, clustering, smoothing, regression | `Rust`, `R` |
-| [oxits-rs](https://github.com/sipemu/oxits-rs) | Time-Series Analysis | Time series classification and transformation library -- port of pyts | `Rust` |
-| [motif-rs](https://github.com/sipemu/motif-rs) | Time-Series Analysis | High-performance matrix profile library; 3--63x faster than stumpy | `Rust` |
-| [dbt-lineage-viewer](https://github.com/sipemu/dbt-lineage-viewer) | Data Engineering | Fast CLI for visualising dbt model lineage | `Rust` |
+#### Data Engineering & Integration
+
+| Project | Highlight | Stack |
+|:--------|:----------|:------|
+| [flapi](https://github.com/DataZooDE/flapi) | DuckDB-powered API gateway with MCP server and VS Code extension | `C++`, `DuckDB` |
+| [erpl](https://github.com/DataZooDE/erpl) | DuckDB extension bridging SAP systems via RFC | `C++`, `DuckDB` |
+| [dbt-lineage-viewer](https://github.com/sipemu/dbt-lineage-viewer) | Fast CLI for visualising dbt model lineage | `Rust` |
+| [anofox-tabular](https://github.com/DataZooDE/anofox-tabular) | Anomaly detection, validation, and data preparation in DuckDB | `C++`, `DuckDB` |
+
+#### Time Series & Forecasting
+
+| Project | Highlight | Stack |
+|:--------|:----------|:------|
+| [anofox-forecast](https://github.com/DataZooDE/anofox-forecast) | 2,900x faster than statsmodels; DuckDB community extension | `C++`, `Rust`, `DuckDB` |
+| Chronos-2 | Pure-Rust re-implementation of Amazon's Chronos-2 time-series foundation model | `Rust`, `Candle` |
+| [oxits-rs](https://github.com/sipemu/oxits-rs) | Time series classification and transformation library -- port of pyts | `Rust` |
+| [motif-rs](https://github.com/sipemu/motif-rs) | High-performance matrix profile library; 3--63x faster than stumpy | `Rust` |
+
+#### GenAI & RAG
+
+| Project | Highlight | Stack |
+|:--------|:----------|:------|
+| Magpie | Vector DB and RAG engine with HNSW, hybrid retrieval, AST-aware chunking | `Rust` |
+
+#### Statistical Computing & Operations Research
+
+| Project | Highlight | Stack |
+|:--------|:----------|:------|
+| [polars-statistics](https://github.com/DataZooDE/polars-statistics) | High-performance statistical testing and regression for Polars | `Rust`, `Python` |
+| Inventory Optimisation | Stochastic inventory models for demand planning | `Rust` |
+| [fdars](https://github.com/sipemu/fdars) | FDA algorithms -- depth measures, clustering, smoothing, regression | `Rust`, `R` |
 
 *flapi and erpl are [DataZooDE](https://github.com/DataZooDE) projects.*
 
