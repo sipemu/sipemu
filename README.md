@@ -17,6 +17,15 @@ I design high-performance data systems in **Rust** and **C++** and apply statist
 - **Enterprise Data Integration** -- DuckDB extensions for SAP and API ecosystems, bridging legacy ERP systems with modern analytical workflows.
 - **Inventory & Supply Chain Optimisation** -- Stochastic inventory models and demand planning applications.
 
+### Business Impact
+
+- **Forecast Accuracy & Speed** — anofox-forecast delivers 2,900x faster forecasting, enabling near-real-time demand planning that reduces stockouts and excess inventory.
+- **Inventory & Working Capital** — Stochastic inventory models optimise safety stock levels, freeing working capital while maintaining service levels.
+- **Enterprise Data Accessibility** — erpl and flapi turn locked-away SAP/ERP data into queryable, API-accessible datasets, cutting integration timelines from months to days.
+- **Data Quality & Trust** — Automated anomaly detection and validation (anofox-tabular) catches data issues before they reach dashboards and decisions.
+- **AI-Ready Infrastructure** — RAG pipelines and vector search (Magpie) ground LLM responses in company knowledge, reducing hallucination and making GenAI safe for enterprise use.
+- **Reduced Infrastructure Cost** — Pure-Rust inference (Chronos-2) and high-performance libraries (motif-rs, oxits-rs) eliminate Python overhead, cutting cloud compute costs and enabling edge deployment.
+
 ---
 
 ### Featured Projects
