@@ -32,9 +32,19 @@ I design high-performance data systems in **Rust** and **C++** and apply statist
 | Chronos-2 | ML Inference | Pure-Rust re-implementation of Amazon's Chronos-2 time-series foundation model | `Rust`, `Candle` |
 | Inventory Optimisation | Supply Chain | Stochastic inventory models for demand planning | `Rust` |
 | [fdars](https://github.com/sipemu/fdars) | Functional Data Analysis | FDA algorithms -- depth measures, clustering, smoothing, regression | `Rust`, `R` |
+| [oxits-rs](https://github.com/sipemu/oxits-rs) | Time-Series Analysis | Time series classification and transformation library -- port of pyts | `Rust` |
+| [motif-rs](https://github.com/sipemu/motif-rs) | Time-Series Analysis | High-performance matrix profile library; 3--63x faster than stumpy | `Rust` |
 | [dbt-lineage-viewer](https://github.com/sipemu/dbt-lineage-viewer) | Data Engineering | Fast CLI for visualising dbt model lineage | `Rust` |
 
 *flapi and erpl are [DataZooDE](https://github.com/DataZooDE) projects.*
+
+### R Packages
+
+| Package | Description |
+|:--------|:-----------|
+| [fdars-r](https://github.com/sipemu/fdars-r) | Functional Data Analysis R package with Rust backend |
+| [eventstudy](https://github.com/sipemu/eventstudy) | Financial event study analysis |
+| [case-based-reasoning](https://github.com/sipemu/case-based-reasoning) | Case-based reasoning using machine learning methods |
 
 ---
 
